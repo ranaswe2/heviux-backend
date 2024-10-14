@@ -72,8 +72,8 @@ VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}" </br>
 PAYPAL_MODE=sandbox </br>
 
 #PayPal Setting & API Credentials - sandbox </br>
-PAYPAL_SANDBOX_CLIENT_ID=<set id> </br>
-PAYPAL_SANDBOX_CLIENT_SECRET=<set secret key> </br>
+PAYPAL_SANDBOX_CLIENT_ID=< set id> </br>
+PAYPAL_SANDBOX_CLIENT_SECRET=< set secret key> </br>
 
 #PayPal Setting & API Credentials - live </br>
 #PAYPAL_LIVE_CLIENT_ID= </br>
