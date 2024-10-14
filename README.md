@@ -1,47 +1,85 @@
 ## Introduction To Heviux
 
-Heviux is a start-up brand for fashion businesses based in France. This software project aims to manage the overall Heviux system. The front-end part of the project is developed by another team. This system produces 50+ RESTful APIs to connect the front end. I used Postman to test the API. You have found the API List (tested from Postman) in "heviux/postman_api_list" path.
+Heviux is a start-up brand for fashion businesses based in France. This software project aims to manage the overall Heviux system. The front-end part of the project is developed by another team. This system produces 50+ RESTful APIs to connect the front end. I used Postman to test the API. You have found the API List (tested from Postman) in "heviux-backend/postman_api_collection" path. 
 
-## Learning Laravel
+## Settings
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Before running this system, define '.env' file correctly, install composer and vite. I suggested you to define the '.env' file as:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY= <>
+APP_DEBUG=true
+APP_URL=http://localhost
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+LOG_CHANNEL=stack
+LOG_DEPRECATIONS_CHANNEL=null
+LOG_LEVEL=debug
 
-## Laravel Sponsors
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=<DB Name>
+DB_USERNAME=<>
+DB_PASSWORD=<>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+FILESYSTEM_DISK=local
+QUEUE_CONNECTION=sync
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
 
-### Premium Partners
+MEMCACHED_HOST=127.0.0.1
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
 
-## Contributing
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=example@gmail.com
+MAIL_PASSWORD=<password>
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="example@gmail.com"
+MAIL_FROM_NAME="Heviux"
+MAIL_DEBUG=true
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+AWS_USE_PATH_STYLE_ENDPOINT=false
 
-## Code of Conduct
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+PUSHER_HOST=
+PUSHER_PORT=443
+PUSHER_SCHEME=https
+PUSHER_APP_CLUSTER=mt1
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+VITE_APP_NAME="${APP_NAME}"
+VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+VITE_PUSHER_HOST="${PUSHER_HOST}"
+VITE_PUSHER_PORT="${PUSHER_PORT}"
+VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
+VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 
-## Security Vulnerabilities
+#PayPal API Mode
+# Values: sandbox or live (Default: live)
+PAYPAL_MODE=sandbox
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+#PayPal Setting & API Credentials - sandbox
+PAYPAL_SANDBOX_CLIENT_ID=<set id>
+PAYPAL_SANDBOX_CLIENT_SECRET=<set secret key>
 
-## License
+#PayPal Setting & API Credentials - live
+#PAYPAL_LIVE_CLIENT_ID=
+#PAYPAL_LIVE_CLIENT_SECRET=
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Database
+
+As the DB contains some sensitive data, you have to create new DB and migrate the models for testing the application.
+
