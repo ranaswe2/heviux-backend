@@ -68,7 +68,7 @@ VITE_PUSHER_SCHEME="${PUSHER_SCHEME}" </br>
 VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}" </br>
 
 #PayPal API Mode </br>
-# Values: sandbox or live (Default: live) </br>
+#Values: sandbox or live (Default: live) </br>
 PAYPAL_MODE=sandbox </br>
 
 #PayPal Setting & API Credentials - sandbox </br>
