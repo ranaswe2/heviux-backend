@@ -6,11 +6,11 @@ Heviux is a start-up brand for fashion businesses based in France. This software
 
 Before running this system, define '.env' file correctly, install composer and vite. I suggested you to define the '.env' file as:
 
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY= <>
-APP_DEBUG=true
-APP_URL=http://localhost
+APP_NAME=Laravel </br>
+APP_ENV=local </br>
+APP_KEY= <> </br>
+APP_DEBUG=true </br>
+APP_URL=http://localhost </br>
 
 LOG_CHANNEL=stack
 LOG_DEPRECATIONS_CHANNEL=null
