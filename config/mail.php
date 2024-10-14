@@ -40,8 +40,8 @@ return [
             'host' => env('MAIL_HOST', 'smtp.gmail.org'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('MAIL_USERNAME','election.divs@gmail.com'),
-            'password' => env('MAIL_PASSWORD','gognrhrrwiuxmqqi'),
+            'username' => env('MAIL_USERNAME','example@gmail.com'),
+            'password' => env('MAIL_PASSWORD','password'),
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
@@ -100,7 +100,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'election.divs@gmail.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'example@gmail.com'),
         'name' => env('MAIL_FROM_NAME', 'Heviux'),
     ],
 
