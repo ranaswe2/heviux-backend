@@ -1,6 +1,6 @@
 ## Introduction To Heviux
 
-Heviux is a start-up brand for fashion business based on France. This software project's aim is to manage the overall Heviux system. The front-end part of the project is developing from another team. This system produces 50+ RESTful APIs to connect the front-end. For testing the API, I used Postman. You have found the API List (tested from Postman) in heviux/postman_api_list path.
+Heviux is a start-up brand for fashion businesses based in France. This software project aims to manage the overall Heviux system. The front-end part of the project is developed by another team. This system produces 50+ RESTful APIs to connect the front end. I used Postman to test the API. You have found the API List (tested from Postman) in "heviux/postman_api_list" path.
 
 ## Learning Laravel
 
