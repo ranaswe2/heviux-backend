@@ -4,6 +4,8 @@ Heviux is a start-up brand for fashion businesses based in France. This software
 
 # Technology Used
 * Laravel 10
+* MySQL
+* XAMPP
 * Postman
 
 # Settings
