@@ -1,8 +1,12 @@
-## Introduction To Heviux
+# Introduction To Heviux
 
-Heviux is a start-up brand for fashion businesses based in France. This software project aims to manage the overall Heviux system. The front-end part of the project is developed by another team. This system produces 50+ RESTful APIs to connect the front end. I used Postman to test the API. You have found the API List (tested from Postman) in "heviux-backend/postman_api_collection" path. 
+Heviux is a start-up brand for fashion businesses based in France. This software project aims to manage the overall Heviux system. The front-end part of the project is developed by another team. This system produces 50+ RESTful APIs to connect the front end. I used Postman to test the API. You have found the API List (tested from Postman) in "heviux-backend/postman_api_collection" path.
 
-## Settings
+# Technology Used
+* Laravel 10
+* Postman
+
+# Settings
 
 Before running this system, define '.env' file correctly, install composer and vite. I suggested you to define the '.env' file as:
 
